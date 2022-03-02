@@ -29,5 +29,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('api/', views.PlayerViewSet.as_view),
-    path('api/leaderboard',  views.leaderboard),
+    path('api/leaderboard',  views.PlayerViewSet.leaderboard),
+    path('api/v1/player/', views.PlayerViewSet.CreatePlayer),
+    path('api/player/<player_id>/', views.PlayerViewSet.GetorUpdateInfo),
 ]
