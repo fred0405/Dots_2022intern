@@ -59,7 +59,7 @@ Get Top X Players in Leaderboard
 GET /api/leaderboards?sortby=<gold|xp>&size=<int>
 ```
 Responses 
-List of
+List of Player information
 | Parameter | Type |
 | :--- | :--- |
 | `username` | `string` |
