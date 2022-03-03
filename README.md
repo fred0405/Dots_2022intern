@@ -2,7 +2,7 @@
 dots assigment
 
 Begin with Docker
-enter the file where manage.py exists, type
+enter the file where manage.py exists
 
 ```
 docker-composer up 
